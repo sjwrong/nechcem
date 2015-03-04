@@ -5,7 +5,7 @@ $hits[0] ++;
 $fp = fopen($count_my_page , "w");
 fputs($fp , "$hits[0]");
 fclose($fp);
-echo $hits[0];
+
 echo $hits++;
 TESTTEST
 ?>
