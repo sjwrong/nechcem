@@ -7,4 +7,5 @@ fputs($fp , "$hits[0]");
 fclose($fp);
 echo $hits[0];
 echo $hits++;
+TESTTEST
 ?>
