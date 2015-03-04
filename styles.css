@@ -1,0 +1,54 @@
+/*Coded by Opencentrum.sk*/
+
+@font-face {
+    font-family: "Europa";
+    src: url(EuropeUnderground_light.ttf) format("truetype");
+}
+
+body {
+	background-color: black;
+	font-family: "Europa", Verdana, Tahoma;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	font-family: "Europa", Verdana, Tahoma;
+	font-weight: 200;
+}
+.block {
+	height:250px;
+}
+.text {
+	width: 1200px;
+	height: 550px;
+	background-image: url(nechcem.jpg);
+	-webkit-animation: cc 1s linear 1s infinite alternate;
+ 	animation: cc 1s linear 1s infinite alternate;
+}
+@-webkit-keyframes cc
+{
+ 0%   { color: white;}
+ 75%  { color: grey;}
+ 100% { color: black;}
+}
+@keyframes cc
+{
+ 0%   { color: white;}
+ 75%  { color: #600;}
+ 100% { color: black;}
+}
+.text:hover {
+	transition:0.8s;
+	font-size: 168px;
+}
+.count {
+	margin-top:150px;
+	color:white;
+	font-size: 22px;
+	font-weight: 200;
+	font-family: "Roboto", Verdana, Tahoma;
+}
+.reg {
+	font-size: 35px;
+	display: inline-block;
+}
