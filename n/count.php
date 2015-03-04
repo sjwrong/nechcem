@@ -9,3 +9,4 @@ echo $hits[0];
 echo $hits++;
 TESTTEST
 ?>
+/*cmnt test*/
